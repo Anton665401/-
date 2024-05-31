@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Button - Time Game</title>
+</head>
+<body>
+    <div id="playerNameInput">
+        <input type="text" id="name" placeholder="Введите ваше имя">
+    </div>
+    <div class="header">
+        <div class="title">Поймайте убегающую кнопку</div>
+        <div class="timer">Time: <span id="timer">00:00</span></div>
+    </div>
+    <div class="button-overlay">
+        <div class="button-container">
+            <div class="restricted-area"></div>
+            <div class ="lastResults>"<div id="lastResults"></div>
+            <div class="chase-button">Поймать кнопку</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div> ЧГТК Им. Щадова </div>
+        <div> ПРОЕКТИРОВАНИЕ И РАЗРАБОТКА ПРИЛОЖЕНИЯ ШУТКИ С УБЕГАЮЩИМИ КНОПКАМИ</div>
+        <div> Сокорев А.В.</div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="game.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
